@@ -15,7 +15,8 @@ public class Main {
 
             System.out.println("Bom dia!");
 
-        } else {
+        } 
+        else {
 
             System.out.println("Boa tarde!");
 
