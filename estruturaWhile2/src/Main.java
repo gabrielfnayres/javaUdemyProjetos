@@ -18,29 +18,23 @@ public class Main {
 
 
 
-            if (x >= 1 && y >= 1) {
+            if (x > 0 && y > 0) {
                 System.out.println("Primeiro");
             }
-            else if (x <= (-1) && y >= 1) {
+            else if (x < 0 && y > 0) {
                 System.out.println("Segundo");
             }
-            else if (x <= (-1) && y <= 1) {
+            else if (x < 0 && y < 0) {
                 System.out.println("Terceiro");
             }
-            else if (x >=1 && y <= (-1)) {
+            else if (x > 0 && y < 0) {
                 System.out.println("Quarto");
             }
 
             x = input.nextInt();
             y = input.nextInt();
 
-
-
-
         }
-
-
-
         input.close();
     }
 }
